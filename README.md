@@ -5,12 +5,13 @@
 ### 环境准备
 
 - python3
-- 自行安装相关库
+- pip install requests pillow
+
 
 ### 使用格式
 
 ```
-python3 yunzhan.py
+python3 book_downloader.py
 ```
 
 ### url形式
@@ -20,7 +21,7 @@ python3 yunzhan.py
 ### 下载示例
 
 ```
-> python3 yunzhan.py
+> python3 book_downloader.py
 
 输入书本网址:[例:https://book.eol.cn/books/xxxx/mobile/index.html] (输入 'q' 退出)
 下载链接：https://book.yunzhan365.com/xxx/xxx/mobile/index.html
